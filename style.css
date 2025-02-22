@@ -22,10 +22,8 @@ header {
     padding: 10px 0;
 }
 
-header .logo {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #007bff;
+header .logo img {
+    max-height: 50px;
 }
 
 header nav ul {
@@ -42,6 +40,12 @@ header nav ul li {
 header nav a {
     text-decoration: none;
     color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #007bff;
 }
 
 /* Hero Section */
